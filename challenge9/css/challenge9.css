@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+
+body {
+    line-height: 0px;
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: normal;
+
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.fa-star {
+    color: #ffce32;
+}
+
+.nonStar {
+    color: #828282;
+}
+
+header {
+    z-index: 1;
+    background-color: #ffce32;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.selector, div.shoppingCart{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav > div.input {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 2;
+    width: 80vw;
+    height: 40px;
+    border: 1px solid #bcbcbc;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px #bcbcbc;
+    top: -20px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav > div.input > input {
+    border: 0px solid #ffffff;
+    width: 80%;
+}
+nav > div.input > input::placeholder {
+    color: #b7b7b7;
+}
+
+nav > div.input > button {
+    width: 40px;
+    height: 40px;
+    color: #b7b7b7;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    margin-right: 40px;
+}
+
+article {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: normal;
+}
+
+section {
+    margin: 0px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: normal;
+}
+
+section > span.sectionTitle {
+    height: 30px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+section > div.book {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: normal;
+}
+
+div.bookCover > img {
+    max-width: 100px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+section > div.book > div.bookInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 17px;
+}
+section > div.book > div.bookInfo > div.author {
+    font-size: 13px;
+    color: #cccccc;
+}
+
+section > div.book > div.bookInfo > div.star {
+    font-size: 13px;
+    color: #cccccc;
+}
+
+section > div.book > div.bookInfo > div.genre > span {
+    padding: 5px 10px;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+section > div.book > div.bookInfo > div.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.bookmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffce32;
+}
+
+div.bookNow {
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+section > div.bookList {
+    margin-top: 5px;
+    display: flex;
+    justify-content: stretch;
+    overflow: hidden;
+}
+
+section > div.bookList > div.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 18px;
+    margin-right: 20px;
+}
+
+.authorName {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 16px;
+    color: #aaaaaa;
+}
+
+.authorInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 15px;
+}

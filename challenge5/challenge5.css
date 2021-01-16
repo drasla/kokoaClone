@@ -1,0 +1,38 @@
+html {
+    background-color: #ff6347;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.large {
+    background-color: #ecd7ae;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #000000;
+}
+
+.smallColor {
+    background-color: #008180;
+}
+.solid {
+
+    width: 50px;
+    height: 50px;
+    border: 3px solid #ffffff;
+}
+
+.dashed {
+    width: 150px;
+    height: 50px;
+    border: 3px dashed #ffffff;
+}

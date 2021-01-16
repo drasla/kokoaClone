@@ -1,0 +1,169 @@
+.first__musicChoice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__musicChoice__cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__musicChoice__cover > img {
+    width: 35%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.5);
+}
+
+.first__musicChoice__songName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__musicChoice__songName > h2 {
+    margin: 50px 0px 10px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+.first__musicChoice__genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__musicChoice__genre > h3 {
+    font-size: 15px;
+    line-height: 15px;
+    color: #888888;
+}
+
+.first__musicChoice__button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 270px;
+}
+
+.first__musicChoice__button__shuffle {
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__musicChoice__button__liked {
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__songList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first_songList__song {
+    width: 300px;
+    padding: 10px 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.first_songList__song__cover__on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color:rgba(0,0,0,0.5);
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.first_songList__song__cover > img {
+    width: 50px;
+    height: 50px;
+}
+
+.first_songList__song__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.first_songList__song__info__singer {
+    font-size: 13px;
+    line-height: 13px;
+    color: #888888;
+}
+
+.first_songList__song__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+player {
+    margin-top: 30px;
+    padding: 20px 30px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__player__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.first__player__info__singer {
+    font-size: 13px;
+    line-height: 13px;
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+.first__player__info__songName {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 800;
+}
+
+.first__player__controller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__player__controller__pause {
+    margin: 0 20px;
+    font-size: 30px;
+}

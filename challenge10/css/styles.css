@@ -1,0 +1,25 @@
+@import "reset.css";
+@import "screens/first.css";
+@import "screens/second.css";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+first,
+second {
+    width: 375px;
+    height: 812px;
+    box-shadow: 0px 0px 83px -1px rgba(0,0,0,0.4);
+    border-radius: 40px;
+}
+
+header {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}

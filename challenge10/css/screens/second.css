@@ -1,0 +1,96 @@
+.second__songInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second__songInfo__cover > img {
+    margin-top: 50px;
+    width: 230px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px rgba(227,54,152,0.7);
+}
+
+.second__songInfo__songName {
+    margin-top: 50px;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.second__songInfo__singer {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #888888;
+}
+
+.second__progressiveBar {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second__progressiveBar__text {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    color: #888888;
+}
+
+.second__progressiveBar__bar {
+    display: flex;
+    justify-content: stretch;
+    margin-top: 5px;
+    position: relative;
+}
+
+.second__progressiveBar__black {
+    width: 180px;
+    height: 3px;
+    background-color: #555555;
+
+}
+
+.second__progressiveBar__grey {
+    width: 90px;
+    height: 3px;
+    background-color: #dddddd;
+}
+
+.second__progressiveBar__dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000000;
+    top: -3px;
+    left: 171px;
+}
+
+.second__player {
+    margin-top: 80px;
+    width: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.second__play_btn--grey {
+    color: #888888;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.second__play_btn--small {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.second__play_btn--big {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+
