@@ -1,5 +1,14 @@
+.index {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .welcome-header {
-    margin: 90px 0px;
+    margin-bottom: 90px;
     text-align: center;
     display: flex;
     flex-direction: column;
